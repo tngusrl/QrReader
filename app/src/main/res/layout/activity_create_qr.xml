@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".CreateQR">
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="match_parent"
+        android:layout_height="50dp" />
+
+    <Button
+        android:id="@+id/CreateBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="QR코드 생성" />
+
+    <ImageView
+        android:id="@+id/ImageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/SaveImage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="이미지 저장"
+        android:visibility="gone" />
+
+    <Button
+        android:id="@+id/ShareImage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="이미지 공유"
+        android:visibility="gone" />
+
+
+</LinearLayout>
